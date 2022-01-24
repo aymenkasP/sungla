@@ -10,7 +10,7 @@ export default function ProductSection({products , title } : any) {
                 <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 lg:items-stretch">
                 
                 {
-                    products.map((product : any) => <ProductCard  key={product.title} items={product}/>)
+                    products?.map((product : any) => <ProductCard  key={product.title} items={product}/>)
                     } 
 
                 </div>
