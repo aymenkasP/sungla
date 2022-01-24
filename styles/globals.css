@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.snipcart-button-primary  {
+    background : black !important;
+    color : white !important;
+}
+
+
+.snipcart-button-primary:hover {
+    background : rgb(29, 29, 29) !important ;
+    color : rgb(231, 220, 220) !important;
+}
