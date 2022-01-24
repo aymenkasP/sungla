@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { useSnipcart } from 'use-snipcart';
+import { useSnipcart } from "use-snipcart"
 
 
 
