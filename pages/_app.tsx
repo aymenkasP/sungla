@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
+// @ts-ignore
 import { SnipcartProvider } from 'use-snipcart';
 
 
