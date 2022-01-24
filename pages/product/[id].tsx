@@ -36,7 +36,7 @@ const productPage = ({TheProduct, OtherProducts} : any) => {
                          className=" snipcart-add-item bg-black  hover:opacity-90 text-white hover:text-gray-300 rounded-md px-10 py-2 font-semibold"
                          data-item-id={TheProduct[0]?.title}
                         data-item-price={TheProduct[0]?.price}
-                        data-item-url={`/products/${TheProduct[0]?.slug}`}
+                        data-item-url={`/product/${TheProduct[0]?.slug}`}
                         data-item-description={parse(description)}
                         data-item-image={TheProduct[0]?.productImage.url}
                         data-item-name={TheProduct[0]?.title} >
