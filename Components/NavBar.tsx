@@ -33,7 +33,7 @@ export default function NavBar(): JSX.Element {
         <Link href="/contact">
           <a className="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0">Contact</a>
         </Link>
-        <Link href="/about">
+        <Link href="/about-us">
           <a className="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0">About</a>
         </Link>
       </nav>
@@ -41,7 +41,7 @@ export default function NavBar(): JSX.Element {
 
           </div>
     <div className="flex items-center">
-      <a href="" className=" snipcart-checkout inline-flex flex-col items-center justify-center w-16 h-16 bg-gray-100">
+      <a className=" snipcart-checkout inline-flex flex-col items-center justify-center w-16 h-16 bg-gray-100">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
             strokeLinecap="round"
