@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
+// @ts-ignore
 import { useSnipcart } from "use-snipcart"
 
 
