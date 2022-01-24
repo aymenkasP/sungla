@@ -15,7 +15,6 @@ class MyDocument extends Document {
         <link rel="preconnect" href="https://app.snipcart.com" />
         <link rel="preconnect" href="https://cdn.snipcart.com" />
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css" />
-        <title>Sungla</title>
         </Head>
         <body>
           <Main />
