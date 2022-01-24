@@ -16,7 +16,7 @@ export default function NavBar(): JSX.Element {
   <header className="border-b border-gray-100  fixed top-0 w-full z-20 bg-white ">
   <div className="flex items-center justify-between h-16 px-4 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
     <div>
-    <a href="" className="flex flex-shrink-0">
+    <a href="/" className="flex flex-shrink-0">
         <span className=" font-bold text-lg ">Sungla</span>
       </a>
     </div>
