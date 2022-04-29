@@ -8,6 +8,8 @@ import ProductSection from '../../Components/ProductSection';
 
 const productPage = ({TheProduct, OtherProducts} : any) => {
     const description = documentToHtmlString(TheProduct[0]?.description?.json)
+    const parseDescription = parse(description) ;
+    console.log(parseDescription)
 
     return (
         <div className=" mt-20 ">
@@ -34,14 +36,13 @@ const productPage = ({TheProduct, OtherProducts} : any) => {
                     <div className="inline-block align-bottom">
                         <button
                          className=" snipcart-add-item bg-black  hover:opacity-90 text-white hover:text-gray-300 rounded-md px-10 py-2 font-semibold"
-                         data-item-id={TheProduct[0]?.title}
+                         data-item-id={TheProduct[0]?.slug}
                         data-item-price={TheProduct[0]?.price}
                         data-item-url={`/product/${TheProduct[0]?.slug}`}
-                        data-item-description={parse(description)}
+                        data-item-description={description}
                         data-item-image={TheProduct[0]?.productImage.url}
                         data-item-name={TheProduct[0]?.title} >
-                         
-
+        
                         <i className="mdi mdi-cart -ml-2 mr-2"></i> BUY NOW</button>
                     </div>
                 </div>

@@ -81,7 +81,7 @@ const about = () => {
         <div>
           <Image
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="https://images.unsplash.com/photo-1577909687863-91bb3ec12db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+            src="/about-img.jpeg"
             alt=""
             width={1100}
             height={750}
