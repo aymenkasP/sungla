@@ -5,7 +5,8 @@ import { Hero } from '../Components/Hero';
 import ProductSection from '../Components/ProductSection';
 
 
-export default function Home({products } : any) {
+
+const Home: React.FC = ({ products } : any) => {
 
   return (
     <div >
@@ -31,3 +32,6 @@ export const getStaticProps: GetStaticProps = async  () => {
       }
   }
 }
+
+
+export default Home
